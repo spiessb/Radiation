@@ -22,7 +22,6 @@ public class Planck {
 
         for (int i = 1; i <= 20; i++) {
             w = i * 0.5e-6;
-//            System.out.println("w= " + w + "  sre = " + sre(w,t));
             System.out.printf("w= %.2e  sre = %.4e%n", w , sre(w,t));
         }
     }
